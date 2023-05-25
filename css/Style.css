@@ -46,7 +46,7 @@ body {
 }
 
 #field .bomb {
-    background-image: url("/images/bomb.gif");
+    background-image: url("../images/bomb.gif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 150px;
