@@ -30,18 +30,15 @@ body {
     box-sizing: border-box;
 }
 
-.one:after {
-    content: '1';
+.one {
     color: blue;
 }
 
-.two:after {
-    content: '2';
+.two {
     color: green;
 }
 
-.three:after {
-    content: '3';
+.three {
     color: red;
 }
 
@@ -50,4 +47,26 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 150px;
+}
+
+#field .cache{
+    position: relative;
+    background: lightgray;
+    border: black 2px dashed;
+
+}
+
+#field .cache::after{
+    content: "";
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    background: #CBCBCB;
+    border: darkgray 10px groove;
+    opacity: 1;
+
+}
+
+#field .cache:hover::after{
+    opacity: 0;
 }
