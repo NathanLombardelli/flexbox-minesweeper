@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=VT323&display=swap');
+
 body {
+    font-family: 'VT323', monospace;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -21,7 +24,7 @@ body {
     width: 100px;
     height: 100px;
     background: lightgray;
-    font-size: 60px;
+    font-size: 80px;
     font-weight: bolder;
     display: flex;
     justify-content: center;
@@ -69,4 +72,13 @@ body {
 
 #field .cache:hover::after{
     opacity: 0;
+}
+
+
+#field .top{
+    border-top:none;
+}
+
+#field .left{
+    border-left:none;
 }
