@@ -17,14 +17,14 @@ body {
     max-height: 800px;
     display: flex;
     flex-wrap: wrap;
-    border: lightgray 50px groove;
+    border: #C8CAC8 50px ridge;
 }
 
 #field div {
     width: 100px;
     height: 100px;
     background: lightgray;
-    font-size: 80px;
+    font-size: 90px;
     font-weight: bolder;
     display: flex;
     justify-content: center;
