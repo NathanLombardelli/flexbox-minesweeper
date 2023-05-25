@@ -1,0 +1,64 @@
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#field{
+    background: lightgray;
+    min-width: 800px;
+    min-height: 800px;
+    max-width: 800px;
+    max-height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: darkgray ;
+}
+
+div{
+    width: 90px;
+    height: 90px;
+    background: lightgray;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black 5px dotted;
+}
+
+.one{
+
+
+}
+.one:after{
+    content: '1';
+    color: blue;
+}
+
+.two{
+
+}
+
+.two:after{
+    content: '2';
+    color: green;
+}
+
+
+.three{
+
+}
+
+.three:after{
+    content: '3';
+    color: red;
+}
+
+.bomb{
+    background-image: url("/images/bomb.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px;
+}
